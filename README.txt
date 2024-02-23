@@ -6,7 +6,7 @@ The src/ folder contains files as follows :
  - config.json
  - user_activity.json
 
-The project was written in Python3 (Version: 3.10.14)
+The project was written in **Python3** (Version: 3.10.14)
 
 To run this project, please follow the below instructions:
     1. We have used jupyter notebook for development, if not available kindly install using pip (pip install notebook).
@@ -15,5 +15,8 @@ To run this project, please follow the below instructions:
     4. The 'parser.ipynb' at the end generates an json file (used for intermittent storage) (can take about 6-7 minutes), further used for graph visualization. We have provided a sample json for usage.
     5. The 'graph_viz.ipynb' file is used for graph visualization. The 'Pyvis' library is utilized for visualization and it generates a separate html file named as 'nx.html' which displays the network graph (takes 1-2 minutes to render the graph). The file also contains the network measures such as closeness centrality, degree distribution as well as page rank.
 
+**Libraries Used:**
+NetowrkX, PyVis, PRAW, matplotlib.
 
+This project is part of the Course - OSNA (CS 579)
     
